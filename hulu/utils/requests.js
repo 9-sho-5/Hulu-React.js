@@ -1,6 +1,10 @@
-const API_KEY = process.env.API_KEY
+const API_KEY = process.env.REACT_APP_API_KEY
 
 export default {
+    fetchTop50: {
+        title: 'Top50',
+        url: '/playlist/37i9dQZEVXbKXQ4mDTEBXq'
+    },
     fetchTrending: {
         title: 'Trending',
         url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
